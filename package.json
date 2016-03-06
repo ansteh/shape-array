@@ -1,0 +1,36 @@
+{
+  "name": "shape-array",
+  "version": "0.0.1",
+  "description": "convert array to json object",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansteh/shape-array.git"
+  },
+  "keywords": [
+    "convert",
+    "transform",
+    "array",
+    "json",
+    "array to json"
+  ],
+  "author": "Andre Stehle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ansteh/shape-array/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "jasmine": "^2.4.1",
+    "webpack": "^1.12.9"
+  }
+}
