@@ -8,7 +8,7 @@ npm install shape-array
 
 ## Usage
 
-Get the difference of arrays:
+Shape array to a json object:
 ```js
 const shape = require('shape-array');
 const personify = shape.scheme(['id', 'name', 'address.street', 'address.zip']);
