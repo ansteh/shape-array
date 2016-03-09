@@ -10,6 +10,7 @@ npm install shape-array
 
 Shape array to a json object:
 ```js
+'use strict';
 const shape = require('shape-array');
 const personify = shape.scheme(['id', 'name', 'address.street', 'address.zip']);
 
