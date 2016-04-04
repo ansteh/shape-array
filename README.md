@@ -27,6 +27,23 @@ let person = personify(data);
 }
 ```
 
+Reverse json to array:
+```js
+const reverse = shape.reverse(['id', 'name', 'address.street', 'address.zip']);
+
+let json = {
+  id: 1,
+  name: 'John',
+  address: {
+    street: 'github',
+    zip: '1234'
+  }
+};
+let array = reverse(json);
+//array equals:
+[1, 'John', 'github', '1234']
+```
+
 ## License
 
 MIT © [Andre Stehle](https://github.com/ansteh)

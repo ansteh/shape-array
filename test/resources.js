@@ -2,7 +2,7 @@ module.exports = {
   person: {
     input: {
       value: [1, 'John', 'github', '1234'],
-      other: ['id', 'name', 'address.street', 'address.zip']
+      scheme: ['id', 'name', 'address.street', 'address.zip']
     },
     output: {
       id: 1,
