@@ -20,12 +20,12 @@ gulp.task('watch', ['test'], function() {
 
 gulp.task("webpack", function(callback) {
     webpack({
-      entry: "./lib/dist.js",
+      entry: "./lib/index.js",
       output: {
         libraryTarget: "var",
         library: "shape",
         path: path.resolve(__dirname, 'dist'),
-        filename: "shape-json.min.js"
+        filename: "shape-array.min.js"
       },
       plugins: [
         new webpack.optimize.UglifyJsPlugin()
