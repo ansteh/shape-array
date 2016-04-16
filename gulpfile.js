@@ -23,9 +23,19 @@ gulp.task("webpack", function(callback) {
       entry: "./lib/index.js",
       output: {
         libraryTarget: "var",
-        library: "shape",
+        library: "shapeArray",
         path: path.resolve(__dirname, 'dist'),
         filename: "shape-array.min.js"
+      },
+      module: {
+        loaders: [{
+          exclude: /(node_modules|bower_components)/,
+          test: /\.js$/,
+          loader: 'babel',
+          query: {
+            presets: ['es2015']
+          }
+        }]
       },
       plugins: [
         new webpack.optimize.UglifyJsPlugin()
