@@ -1,5 +1,5 @@
 'use strict';
-const shape = require('../../index.js');
+const shape = require('../../lib/index.js');
 const resource = require('../resources.js');
 
 const get = (key) => {

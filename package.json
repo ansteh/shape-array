@@ -1,8 +1,8 @@
 {
   "name": "shape-array",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "convert array to json object",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test/test",
     "gulp": "gulp"
