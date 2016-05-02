@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/ansteh/shape-array.svg?branch=master)](https://travis-ci.org/ansteh/shape-array)
+
 ## Install
 
 Using npm:
@@ -43,6 +45,11 @@ let array = reverse(json);
 //array equals:
 [1, 'John', 'github', '1234']
 ```
+
+## Related
+
+- [shape-json](https://github.com/ansteh/shape-json) - Convert json to json with a predefined scheme
+- [difference-json](https://github.com/ansteh/difference-json) - Prompt the diffrence of two json objects
 
 ## License
 
