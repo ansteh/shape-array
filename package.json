@@ -1,6 +1,6 @@
 {
   "name": "shape-array",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "convert array to json object",
   "main": "lib/index.js",
   "scripts": {
