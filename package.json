@@ -1,6 +1,6 @@
 {
   "name": "shape-array",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "convert array to json object",
   "main": "lib/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "url": "https://github.com/ansteh/shape-array/issues"
   },
   "dependencies": {
-    "lodash": "^4.16.6"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
